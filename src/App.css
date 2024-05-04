@@ -1,38 +1,50 @@
-.App {
+.form_container{
+  padding:10px;
+}
+.form_header{
+  background: url(https://www.esic.edu/sites/default/files/2022-07/bases-datos-memoria.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.form_title{
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px black;
+}
+.form_body{
+  background-color: rgb(75 75 75 / 25%);
+}
+.form{
+  padding: 30px;
+  text-align: left;
+}
+.form > .form_label{
+  color: rgb(91 88 88);
+  font-size: 20px;
+  font-weight: 800;
+  display: block;
+}
+.form_input-ico{
+  width: 100%;
+  margin-bottom: 250px;
+}
+.form_ico{
+  padding: 10px;
+  padding-left: 0;
+  color: green;
+  min-width: 50px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form_input-ico i{
+  position: absolute;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form_input{
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  color: rgb(91 88 88);
+  padding-left: 40px;
 }

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Buenos Dias
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="form_container">
+      <div className="form_header">
+      <div className="form_title">
+        <h1>Mi Primer Formulario</h1>
+      </div>
+      </div>
+      <div className='form_body'>
+        <div className='form'>
+          <label className='form_label'>
+            Nombres y Apellidos:
+          </label>
+          <div className="form_input-ico">
+            <i className="fa fa-user form_ico" aria-hidden="true">
+              <input className="form_input"
+              id='nomnbre_apellido'
+              name='nombre_apellido'>
+              </input>
+            </i>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
